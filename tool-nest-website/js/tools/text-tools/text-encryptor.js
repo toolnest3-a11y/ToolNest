@@ -1,0 +1,1 @@
+﻿// text-encryptor.js implementation

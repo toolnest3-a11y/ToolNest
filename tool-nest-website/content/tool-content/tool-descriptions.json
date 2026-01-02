@@ -1,0 +1,142 @@
+﻿{
+  "tools": [
+    {
+      "id": "image-converter",
+      "name": "Image Converter",
+      "category": "image-processing",
+      "description": "Convert images between JPG, PNG, WebP, SVG, and more formats",
+      "icon": "image-processing.png",
+      "path": "/tools/image-converter/index.html",
+      "popular": true,
+      "features": ["Batch conversion", "Quality control", "Preserve metadata"]
+    },
+    {
+      "id": "pdf-converter",
+      "name": "PDF Converter",
+      "category": "document-tools",
+      "description": "Convert PDF to Word, Excel, PowerPoint, and other formats",
+      "icon": "document-tools.png",
+      "path": "/tools/pdf-converter/index.html",
+      "popular": true,
+      "features": ["OCR support", "Batch processing", "Secure conversion"]
+    },
+    {
+      "id": "basic-calculator",
+      "name": "Basic Calculator",
+      "category": "calculator-tools",
+      "description": "Simple calculator with basic arithmetic operations",
+      "icon": "calculator.png",
+      "path": "/tools/basic-calculator/index.html",
+      "popular": true,
+      "features": ["Memory functions", "Percentage calculations", "Keyboard support"]
+    },
+    {
+      "id": "text-converter",
+      "name": "Text Case Converter",
+      "category": "text-tools",
+      "description": "Convert text between different cases (UPPERCASE, lowercase, Title Case, etc.)",
+      "icon": "text-tools.png",
+      "path": "/tools/text-converter/index.html",
+      "popular": true,
+      "features": ["Multiple case options", "Live preview", "Copy to clipboard"]
+    },
+    {
+      "id": "json-formatter",
+      "name": "JSON Formatter",
+      "category": "developer-tools",
+      "description": "Format, validate, and beautify JSON data",
+      "icon": "developer-tools.png",
+      "path": "/tools/json-formatter/index.html",
+      "popular": true,
+      "features": ["Syntax highlighting", "Validation", "Minification"]
+    },
+    {
+      "id": "color-picker",
+      "name": "Color Picker",
+      "category": "color-tools",
+      "description": "Pick colors from screen and convert between formats",
+      "icon": "color-tools.png",
+      "path": "/tools/color-picker/index.html",
+      "popular": true,
+      "features": ["Eye dropper", "Color history", "Format conversion"]
+    },
+    {
+      "id": "qr-generator",
+      "name": "QR Code Generator",
+      "category": "utility-tools",
+      "description": "Generate QR codes for URLs, text, contact info, and more",
+      "icon": "utility-tools.png",
+      "path": "/tools/qr-generator/index.html",
+      "popular": true,
+      "features": ["Customizable design", "High resolution", "Batch generation"]
+    },
+    {
+      "id": "unit-converter",
+      "name": "Unit Converter",
+      "category": "utility-tools",
+      "description": "Convert between different units of measurement",
+      "icon": "utility-tools.png",
+      "path": "/tools/unit-converter/index.html",
+      "popular": true,
+      "features": ["Multiple categories", "Real-time conversion", "History tracking"]
+    }
+  ],
+  "categories": [
+    {
+      "id": "image-processing",
+      "name": "Image Processing",
+      "description": "Tools for image conversion, compression, editing, and optimization",
+      "icon": "image-processing.png",
+      "count": 12
+    },
+    {
+      "id": "document-tools",
+      "name": "Document Tools",
+      "description": "PDF converters, editors, compressors, and document processors",
+      "icon": "document-tools.png",
+      "count": 8
+    },
+    {
+      "id": "calculator-tools",
+      "name": "Calculators",
+      "description": "Basic, scientific, financial, and specialized calculators",
+      "icon": "calculator.png",
+      "count": 10
+    },
+    {
+      "id": "text-tools",
+      "name": "Text Tools",
+      "description": "Text manipulation, conversion, analysis, and formatting tools",
+      "icon": "text-tools.png",
+      "count": 15
+    },
+    {
+      "id": "developer-tools",
+      "name": "Developer Tools",
+      "description": "Tools for developers: code formatters, validators, converters",
+      "icon": "developer-tools.png",
+      "count": 20
+    },
+    {
+      "id": "color-tools",
+      "name": "Color Tools",
+      "description": "Color pickers, converters, palette generators, and analyzers",
+      "icon": "color-tools.png",
+      "count": 8
+    },
+    {
+      "id": "seo-tools",
+      "name": "SEO Tools",
+      "description": "SEO analyzers, keyword tools, meta tag generators",
+      "icon": "seo-tools.png",
+      "count": 6
+    },
+    {
+      "id": "utility-tools",
+      "name": "Utility Tools",
+      "description": "General utility tools for everyday tasks",
+      "icon": "utility-tools.png",
+      "count": 25
+    }
+  ]
+}

@@ -1,74 +1,56 @@
-# Tool Nest Website
+﻿# Tool Nest Website
 
-A comprehensive collection of online tools for various purposes including image processing, document conversion, calculators, text manipulation, developer tools, and more.
+A comprehensive collection of free online tools for everyday tasks.
 
 ## Features
 
-- **Multiple Tool Categories**: Image processing, document tools, calculators, text tools, developer tools, color tools, SEO tools, utilities
-- **Blog Integration**: Technical blog with tutorials, tips, and guides
-- **Responsive Design**: Mobile-friendly interface
-- **User Accounts**: Save history, favorites, and preferences
-- **Dark/Light Theme**: User preference based theme switching
-- **SEO Optimized**: Built with SEO best practices
-- **Fast Performance**: Optimized for speed
-
-## Tech Stack
-
-- **Frontend**: React 18, Vite
-- **Styling**: CSS Modules/Tailwind CSS
-- **State Management**: Redux Toolkit
-- **Routing**: React Router v6
-- **Testing**: Jest, React Testing Library
-- **Build Tool**: Vite
-- **Deployment**: Docker, Nginx
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 16 or higher
-- npm or yarn
-
-### Installation
-
-1. Clone the repository
-\`\`\`bash
-git clone https://github.com/yourusername/tool-nest-website.git
-cd tool-nest-website
-\`\`\`
-
-2. Install dependencies
-\`\`\`bash
-npm install
-\`\`\`
-
-3. Create environment file
-\`\`\`bash
-cp .env.example .env
-\`\`\`
-
-4. Start development server
-\`\`\`bash
-npm run dev
-\`\`\`
+- **100+ Free Tools**: Image processing, document tools, calculators, text tools, and more
+- **No Registration Required**: All tools work directly in your browser
+- **Fast & Secure**: All processing happens locally when possible
+- **Responsive Design**: Works on desktop, tablet, and mobile
+- **Dark/Light Mode**: Choose your preferred theme
+- **Blog Section**: Tutorials, guides, and tips for using tools effectively
 
 ## Project Structure
 
-See [project structure documentation](docs/development/architecture.md)
+\\\
+tool-nest-website/
+├── index.html                    # Main homepage
+├── style.css                     # Main stylesheet
+├── script.js                     # Main JavaScript file
+├── pages/                        # All HTML pages
+├── css/                          # Stylesheets
+├── js/                           # JavaScript files
+├── assets/                       # Images, icons, fonts
+├── tools/                        # Individual tool implementations
+└── content/                      # JSON content files
+\\\
 
-## Available Scripts
+## Getting Started
 
-- \`npm run dev\` - Start development server
-- \`npm run build\` - Build for production
-- \`npm run preview\` - Preview production build
-- \`npm run test\` - Run tests
-- \`npm run lint\` - Run ESLint
-- \`npm run format\` - Format code with Prettier
+1. Clone the repository
+2. Open \index.html\ in your browser
+3. All tools are ready to use
 
-## Contributing
+## Tools Categories
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
+- **Image Processing**: Convert, compress, resize, edit images
+- **Document Tools**: PDF converters, editors, compressors
+- **Calculators**: Basic, scientific, financial calculators
+- **Text Tools**: Case converters, counters, formatters
+- **Developer Tools**: Code formatters, validators, converters
+- **Color Tools**: Pickers, converters, palette generators
+- **SEO Tools**: Analyzers, keyword tools, meta generators
+- **Utility Tools**: QR generators, unit converters, random tools
+
+## Development
+
+To modify or add new tools:
+1. Add tool HTML in \pages/tools/\ directory
+2. Add tool JavaScript in \js/tools/\ directory
+3. Add tool CSS in \css/\ directory
+4. Update \data/tools.json\ with tool metadata
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+MIT License - Free to use and modify
