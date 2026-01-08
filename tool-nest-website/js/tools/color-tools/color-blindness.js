@@ -1,1 +1,0 @@
-﻿// color-blindness.js implementation

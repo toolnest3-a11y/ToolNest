@@ -1,1 +1,0 @@
-﻿// regex-tester.js implementation

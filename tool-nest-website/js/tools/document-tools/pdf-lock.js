@@ -1,1 +1,0 @@
-﻿// pdf-lock.js implementation

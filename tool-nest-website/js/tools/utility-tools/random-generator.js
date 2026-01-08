@@ -1,1 +1,0 @@
-﻿// random-generator.js implementation

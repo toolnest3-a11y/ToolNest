@@ -1,1 +1,0 @@
-﻿// gradient-generator.js implementation

@@ -1,1 +1,0 @@
-﻿// qr-generator.js implementation

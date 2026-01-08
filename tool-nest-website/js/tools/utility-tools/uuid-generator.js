@@ -1,1 +1,0 @@
-﻿// uuid-generator.js implementation

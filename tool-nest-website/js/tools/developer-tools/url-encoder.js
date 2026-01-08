@@ -1,1 +1,0 @@
-﻿// url-encoder.js implementation
